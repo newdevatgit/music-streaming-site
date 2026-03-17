@@ -1,0 +1,33 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+    overflow: hidden;
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar{
+    background-color: #121212;
+    width: 25vw;
+    border-radius: 1rem;
+}
+
+.main_content{
+    background-color: #121212;
+    flex: 1;
+    border-radius: 1rem;
+}
+
+.music_player{
+    background-color: black;
+    position: fixed;
+    border-radius: 1rem;
+    bottom: 0;
+    width: 100vw;
+    height: 10vh;
+}
