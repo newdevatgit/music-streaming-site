@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -8,121 +9,163 @@
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
   <link rel="icon" href="./assets/logo.png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet" />
 </head>
 
 <body>
+
   <div class="main">
-    <div class="sidebar">
-      <div class="library">
-        <div class="options">
-          <div class="lib_option nav_option">
-            <img src="./assets/library_icon.png" alt="" />
-            <a href="#">Your Library</a>
-          </div>
-          <div class="icons">
-            <i class="fa-solid fa-plus"></i>
-            <i class="fa-solid fa-arrow-right"></i>
-          </div>
-        </div>
-        <div class="lib-box">
-          <div class="box">
-            <p class="box-p1">Create your first playlist!</p>
-            <p class="box-p2">It's easy, we'll help you</p>
-            <div class="badge">Create Playlist</div>
-          </div>
-          <div class="box">
-            <p class="box-p1">Lets find some podcasts to follow!</p>
-            <p class="box-p2">we'll keep you updated on new episodes</p>
-            <button class="badge">Browse Podcasts</button>
-          </div>
-        </div>
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+  <div class="library">
+    <div class="options">
+      <div class="lib_option nav_option">
+        <img src="./assets/library_icon.png" alt="" />
+        <a href="#">Your Library</a>
+      </div>
+      <div class="icons">
+        <i class="fa-solid fa-plus"></i>
+        <i class="fa-solid fa-arrow-right"></i>
       </div>
     </div>
 
-   <div class="sticky-nav">
+    <div class="lib-box">
+      <div class="box">
+        <p class="box-p1">Create your first playlist!</p>
+        <p class="box-p2">It's easy, we'll help you</p>
+        <div class="badge">Create Playlist</div>
+      </div>
 
-     <div class="nav">
-       <div class="nav_option" style="opacity: 1">
-          <img id="logo" src="./assets/logo.png" alt="">
-        </div>
-        <div class="nav_option searchbar">
-          <i class="fa-solid fa-house"></i>
-        </div>
-        <div class="searchbar">
-          <div class="nav_option">
+      <div class="box">
+        <p class="box-p1">Lets find some podcasts to follow!</p>
+        <p class="box-p2">we'll keep you updated on new episodes</p>
+        <button class="badge">Browse Podcasts</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="sticky-nav">
+    <div class="nav">
+      <div class="nav_option" style="opacity: 1">
+        <img id="logo" src="./assets/logo.png" alt="">
+      </div>
+
+      <div class="nav_option searchbar">
+        <i class="fa-solid fa-house"></i>
+      </div>
+
+      <div class="searchbar">
+        <div class="nav_option">
           <i class="fa-solid fa-magnifying-glass"></i>
           <input class="search-box" type="text" placeholder="what do you want to play?">
         </div>
-        </div>
       </div>
-        
-        <div class="right-nav">
-          <a href="#" class="nav-item hide">Premium</a>
-          <a href="#" class="nav-item hide">Support</a>
-          <a href="#" class="nav-item hide">Download</a>
-          <hr class="hide">
-          <a href="#" class="nav-item"><i class="fa-regular fa-circle-down"></i>Install App</a>
-          <a href="#" class="nav-item">signup</a>
-          <button class="badge">Log in</button>
-        
-        </div>
     </div>
 
-    <div class="main_content">
-     
-      
-        <h2>Recently Played</h2>
-        <div class="card-container">
-          <div class="card">
-            <img src="./assets/card1img.jpeg" alt="">
-            <p class="card-title">Top 50 Global</p>
-            <p class="card-info">Your daily updates of the most played tasks...</p>
-          </div>
-        </div>
-
-        <h2>Trending now near you</h2>
-        <div class="card-container">
-          <div class="card">
-            <img src="./assets/card2img.jpeg" alt="">
-            <p class="card-title">Top 50 Global</p>
-            <p class="card-info">Your daily updates of the most played tasks...
-          </div>
-
-          <div class="card">
-            <img src="./assets/card3img.jpeg" alt="">
-            <p class="card-title">Top 50 Global</p>
-            <p class="card-info">Your daily updates of the most played tasks...
-          </div>
-
-          <div class="card">
-            <img src="./assets/card4img.jpeg" alt="">
-            <p class="card-title">Top 50 Global</p>
-            <p class="card-info">Your daily updates of the most played tasks...
-          </div>
-        </div>
-
-        <h2>Trending now near you</h2>
-        <div class="card-container">
-          <div class="card">
-            <img src="./assets/card6img.jpeg" alt="">
-            <p class="card-title">Top Songs India</p>
-            <p class="card-info">Your daily updates of the most played tasks...
-          </div>
-
-          <div class="card">
-            <img src="./assets/card5img.jpeg" alt="">
-            <p class="card-title">Top Songs Global</p>
-            <p class="card-info">Your daily updates of the most played tasks...
-          </div>
-
-
-        </div>
+    <div class="right-nav">
+      <a href="#" class="nav-item hide">Premium</a>
+      <a href="#" class="nav-item hide">Support</a>
+      <a href="#" class="nav-item hide">Download</a>
+      <hr class="hide">
+      <a href="#" class="nav-item"><i class="fa-regular fa-circle-down"></i> Install App</a>
+      <a href="#" class="nav-item">signup</a>
+      <button class="badge">Log in</button>
     </div>
-    <div class="music_player">music-player</div>
+  </div>
+
+<!-- MAIN CONTENT -->
+<div class="main_content">
+
+
+  <!-- CONTENT -->
+  <h2>Recently Played</h2>
+  <div class="card-container">
+    <div class="card">
+      <img src="./assets/card1img.jpeg" alt="">
+      <p class="card-title">Top 50 Global</p>
+      <p class="card-info">Your daily updates of the most played tasks...</p>
+    </div>
+  </div>
+
+  <h2>Trending now near you</h2>
+  <div class="card-container">
+    <div class="card">
+      <img src="./assets/card2img.jpeg" alt="">
+      <p class="card-title">Top 50 Global</p>
+      <p class="card-info">Your daily updates of the most played tasks...</p>
+    </div>
+
+    <div class="card">
+      <img src="./assets/card3img.jpeg" alt="">
+      <p class="card-title">Top 50 Global</p>
+      <p class="card-info">Your daily updates of the most played tasks...</p>
+    </div>
+
+    <div class="card">
+      <img src="./assets/card4img.jpeg" alt="">
+      <p class="card-title">Top 50 Global</p>
+      <p class="card-info">Your daily updates of the most played tasks...</p>
+    </div>
+  </div>
+
+  <h2>Trending now near you</h2>
+  <div class="card-container">
+    <div class="card">
+      <img src="./assets/card6img.jpeg" alt="">
+      <p class="card-title">Top Songs India</p>
+      <p class="card-info">Your daily updates of the most played tasks...</p>
+    </div>
+
+    <div class="card">
+      <img src="./assets/card5img.jpeg" alt="">
+      <p class="card-title">Top Songs Global</p>
+      <p class="card-info">Your daily updates of the most played tasks...</p>
+    </div>
+  </div>
+
+</div>
+
+  </div>
+
+  <!-- MUSIC PLAYER -->
+
+  <div class="music_player">
+    <div class="mp-left-controls">
+      <img src="./assets/card2img.jpeg" alt="">
+      <div class="song-info">
+        <p class="song-title">Blinding Lights</p>
+        <p class="artist-name">The Weeknd</p>
+      </div>
+      <i class="fa-regular fa-heart"></i>
+    </div>
+
+<div class="mp-center-controls">
+  <div class="music-player-controls">
+    <i class="fa-solid fa-shuffle"></i>
+    <i class="fa-solid fa-backward-step"></i>
+    <i class="fa-solid fa-circle-play" style="font-size: 35px; opacity: 1;"></i>
+    <i class="fa-solid fa-forward-step"></i>
+    <i class="fa-solid fa-repeat"></i>
+  </div>
+
+  <div class="music-bar">
+    <span>0:00</span>
+    <input type="range" class="progress-bar">
+    <span>3:20</span>
+  </div>
+</div>
+
+<div class="mp-right-controls">
+  <i class="fa-solid fa-list"></i>
+  <i class="fa-solid fa-desktop"></i>
+  <i class="fa-solid fa-volume-high"></i>
+  <input type="range" class="volume-bar">
+  <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+</div>
+
+  </div>
+
 </body>
-
 </html>
