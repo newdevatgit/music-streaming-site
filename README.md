@@ -2,6 +2,9 @@
 
 A responsive, high-fidelity Spotify Web Player clone built with modern web technologies. This project replicates the core user interface of the Spotify dashboard, focusing on a dark-themed, sleek UI/UX.
 
+## Live 
+https://newdevatgit.github.io/music-streaming-site
+
 ## Features
 
 * **Sidebar Navigation:** Access to "Your Library," custom playlist creation, and podcast discovery.
